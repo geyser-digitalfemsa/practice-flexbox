@@ -1,0 +1,13 @@
+para el diseño flexible se realizó lo siguiente
+
+- las clases css se realizan en un documento de estilo aparte. 
+- first mobile: se comenzó diseñando primero para móviles.
+- se ocultó el menú en pantallas más pequeñas, pero se conmuta su visibilidad mediante con checkbox.
+- Los puntos de quiebre son 768px para tablets, y apartir de 1024px se aprecia una distribución adecuada para pantallas de escritorio.
+- Las propiedas flexblox utilizadas son:
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-direction: row;
